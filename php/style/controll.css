@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: arial;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f3f2f2;
+}
+
+.container-bb {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    background-color: #2b2a2a;
+    width: 25%;
+}
+
+.controll {
+    margin-top: 50px;
+}
+
+.controll div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.controll div a {
+    margin: 10px auto;
+    display: block;
+    color: rgb(255, 255, 255);
+    border-bottom: 5px solid #212392;
+    width: 80%;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+    transition: all 0.2s ease;
+}
+
+.controll div a:hover {
+    color: #212392;
+}
+
+#activen {
+    color: #212392;
+}
+
+
+
+.add-product-container {
+    width: 75%;
+    float: right;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.file {
+     display: none;
+}
+.litl{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+
+}
+.lab{
+    border: 1px solid #212392;
+    padding: 5px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    margin: 5px 5px;
+    cursor: pointer;
+    width:40%;
+    border-radius: 8px;
+    background-color: #212392;
+
+}
+
+.im{
+    width: 8rem;
+    height: 0;
+    overflow: hidden;
+    margin: 5px 0;
+}
+
+
+form input,
+form textarea {
+    width: 60%;
+    font-size: 20px;
+    border: 1px solid #212392;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+    resize: none;
+}
+
+.select {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select select {
+    width: 30%;
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.label {
+    border: 2px solid #212392;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    color: #212392;
+    background-color: inherit;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#add {
+    width: 65%;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #212392;
+}
+
+.deletpr {
+    padding: 10px 20px;
+    display: block;
+    margin: 10px auto;
+    background: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-align: center;
+    width: 20%;
+
+}
+
+.uppr {
+    padding: 10px 20px;
+    display: block;
+    margin: 10px auto;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    background: rgb(25, 0, 255);
+    transition: all 0.5s;
+}
+.deletpr:hover , .uppr:hover{
+    transform: scale(1.1);
+}
+.yours {
+    color: #ffffff;
+}
+.btns{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction:column ;
+}
+.btns button{
+    width: 60%;
+    background-color: inherit;
+    border: 2px solid #212392;
+    font-size: 25px;
+    color: #212392;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 8px;
+}
+.btns button:hover{
+    transition: all 0.5s;
+    transform: scale(1.05);
+}
+
+
+.hidden-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;left: 0;right: 0;bottom: 0;
+    transform: scale(0);
+    transition: 0.5s ease all;
+
+}
+#exite55{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 35px;
+    color: #212392;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#exite54{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 35px;
+    color: #212392;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#exite55:hover{
+    transform: rotate(360deg);
+}
+#exite54:hover{
+    transform: rotate(360deg);
+}
+.conten{
+    position: relative;
+    padding: 10px;
+    background-color: white;
+    border-radius: 12px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    border: 1px solid grey;
+    box-shadow: 0 0 10px 1px ;
+    
+}
+.big-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.min{
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    background: white;
+
+}
+.min p {
+    font-size: 25px;
+}
+.nm{
+    color: #212392;
+}
+.conn{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

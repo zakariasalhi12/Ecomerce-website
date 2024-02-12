@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.error{
+    width: fit-content;
+    margin: 10px auto;
+    background-color: #ffe0e0;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    text-align: center;
+}
+.error i{
+    font-size: 25px;
+    color: red;
+}
+.succes{
+    width: fit-content;
+    margin: 10px auto;
+    background-color: #d0fac6;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border-bottom: 2px solid green;
+    text-align: center;
+}
+.succes i{
+    font-size: 25px;
+    color: green;
+}
+.circle{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: rgba(88, 88, 88, 0.253);
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+body{
+    background-image: url("https://c.neh.tw/thumb/f/720/comrawpixel2339918.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.titre{
+    color: #4d4db8;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.formater{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.fr{
+    width: 40%;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #0dd9fd17
+
+}
+
+@media (max-width:800px){
+    .fr{
+        width: 80%;
+    }
+}

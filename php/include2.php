@@ -1,0 +1,1 @@
+<a href="panierr.php"><div class="panier"><i class="fa-solid fa-cart-shopping"></i></div></a>
